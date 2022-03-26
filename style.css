@@ -14,19 +14,19 @@ body {
      'Times New Roman', serif;
 }
 
-a{
-    color: black;
-    text-decoration: none;
+a{/* блок с сылками */
+    color: black; /*цвет ссылок */
+    text-decoration: none; /* изменение ссылок после нажатия */
 }
 
-a:hover{
-    text-decoration: underline;
+a:hover{ /* состояние тега а*/
+    text-decoration: underline; /* подчеркивание ссылок при наведении*/
 }
 a:active{
     color: blue;
 }
 
-a:visited{
+a:visited{ /* изменние ссылок после посещения*/
     color: grey;
 }
 
@@ -66,59 +66,61 @@ a:visited{
     text-decoration: none;
     text-transform: capitalize;
     letter-spacing: 5px;
-    word-spacing: 10px;
+    word-spacing: 10px; /* пространство между словами*/
 }
 /* Box model */
-.conteiner{
-    max-width: 750px;
-    margin: auto;
+
+.conteiner{ /*класс контейнер*/
+    max-width: 750px;/* размер сайта на экране*/
+    margin: auto; /* центровка сайта*/
     padding-top: 30px;
 }
-/* .social{
+/*/* .social{
     background-color: green;
-    padding: 15px 40px;
-    border: 5px solid red;
-    margin: 20px;
-} */
+    padding: 15px 40px;/* отступ от края блока до контента *//*
+    border: 5px solid red; /*граница блока*/
+   /* margin: 20px;*/
+/*} */
 
-.card{
-    padding: 15px 20px;
-    margin-bottom: 20px;
-    border-radius: 20px;
-    background: red;
+.card{ /* класс card*/
+    padding: 15px 20px; /* отступы между блоками*/
+    margin-bottom: 10px; /* отступы между блоками*/
+    border-radius: 20px; /* радиус углов у блоков*/
+    /*background: red;*/
 }
 
 .card h2{
     margin-bottom: 5px;
 }
 
-.bg-yellow{
+.bg-yellow{ /* цвет класса card bg-yellow*/
     background: #fff9dc;
 }
-.bg-green{
+.bg-green{ /* цвет класса card bg-green*/
     background: #e5ffe7;
 }
-.bg-red{
+.bg-red{ /* цвет класса card bg-red*/
     background: #ffe5e5;
 }
 
 .list{
-    padding: 5px;
+    padding: 5px; /* отступ с лева*/
+    /*list-style: none*/ /* можно убрать номера строк*/
 }
-.list li{
+.list li{ /* задать цвет тегам li*/
     color: #86898f;
-    margin-bottom: 10px;
+    margin-bottom: 10px; /* отступы между строк*/
 }
 
-.table{
-    width: 100%;
+.table{ /* тег table */
+    width: 100%; /* ширина таблицы во всю ширину*/
 }
 
 .table td{
-    padding-bottom: 10px;
+    padding-bottom: 10px; /* растояние между тегами*/
 }
 
-/* .table td:nth-child(2),
+/* .table td:nth-child(2), псевдо селектор для работы с колонками
 .table td:nth-child(3)
 {
     color: #86898f;
