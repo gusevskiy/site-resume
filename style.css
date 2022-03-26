@@ -83,7 +83,7 @@ a:visited{ /* изменние ссылок после посещения*/
 /*} */
 
 .card{ /* класс card*/
-    padding: 15px 20px; /* отступы между блоками*/
+    padding: 10px 20px; /* отступы между блоками*/
     margin-bottom: 10px; /* отступы между блоками*/
     border-radius: 20px; /* радиус углов у блоков*/
     /*background: red;*/
@@ -99,6 +99,11 @@ a:visited{ /* изменние ссылок после посещения*/
 .bg-green{ /* цвет класса card bg-green*/
     background: #e5ffe7;
 }
+
+.bg-blue{ /* цвет класса card bg-blue*/
+    background: #f0ffff;
+}
+
 .bg-red{ /* цвет класса card bg-red*/
     background: #ffe5e5;
 }
@@ -117,6 +122,10 @@ a:visited{ /* изменние ссылок после посещения*/
 }
 
 .table td{
+    padding-bottom: 10px; /* растояние между тегами*/
+}
+
+.table th{
     padding-bottom: 10px; /* растояние между тегами*/
 }
 
